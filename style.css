@@ -1,0 +1,167 @@
+
+body{
+  background-image: url(backblue.jpg);
+  background-position: right top;
+  background-attachment:inherit;
+  background-size:contain;
+background-size: auto;
+
+}
+
+
+h1{
+background-color:rgb(0, 153, 153, 0.2);
+transition: 20%;
+transform: scale3d(20px);
+text-align: center;
+text-shadow: 2px 2px white;
+font-size: 800%;
+font-family:times;
+display:block;
+margin:6px;
+border-radius: 20px;
+}
+
+h2 {
+  background-color:	hsl(180, 33%, 30%);
+text-align: center;
+font-size: 300%;
+font-variant: small-caps;
+border-radius: 40px;
+color:white;
+text-shadow: 2px 2px black;
+
+}
+
+
+
+
+
+h3{
+  font-family: arial;
+  color:white;
+  text-shadow: 2px 2px #000000;
+}
+
+p{
+  background-color: hsl(180, 33%, 30%);
+  border-radius: 40px;
+  color:#CCFFFF;
+  text-align: center;
+  border: 10px white;
+  margin-right: 750px;
+}
+.grid-float .gird-item  {
+  float:right;
+  margin: 20px;
+  border: 20px;
+
+}
+li{
+  list-style-type: none;}
+
+
+}
+  section{
+    display: inline-block;
+    width: 100%;
+        }
+
+#grid-floats{
+  color: red;
+  margin-right: 115px;
+  padding-left: 10px;
+}
+
+
+#grid-flex{
+  margin-right: 5px;
+  padding: 10px;
+}
+
+#grid-floats{
+  display:inline;
+  clear: left;}
+#grid-float .grid-item:first-child{
+  display: inline;
+  clear: right;
+  border-top: 50px;
+}
+
+
+#grid-flex{
+  display:inline;
+  clear:left;
+
+}
+#grid-flex .grid-item:first-child{
+  flex: 100%;
+  width: calc(100%-20px);
+}
+#grid-flex .grid-item{
+  flex:40%;
+}
+img{
+  float: right;
+}
+///*desktop*///
+@@media only screen and (min-width: 1224px) {
+#grid-floats .grid-item:first-child
+img{
+  margin-left: 10%;
+  width:calc(50%-60%);
+
+}
+
+#grid-floats .grid-item:nth-child(2n+2){
+  width:calc(34%-50px);
+  border: 5px rgba(255, 99, 71, 0);
+
+}
+#grid-floats{
+  clear:both;
+}
+#grid-floats .grid-items{
+  float: left;
+  width: calc(25%-37px)
+
+}
+#grid-flex .grid-item:last-child
+img{
+  margin-left: 10%;
+  width:calc(50%-60%);
+
+}
+#grid-flex .grid-item:nth-child(2n+2){
+  width:calc(34%-50px);
+  border: 5px rgba(255, 99, 71, 0);
+
+}
+#grid-flex{
+  clear:left;
+}
+#grid-flex .grid-items{
+  float: left;
+  width: calc(25%-37px)
+
+}
+///*tablets*///
+@media only screen and (min-width:768px) and (max-width:1024px){html{background-color:blue;}
+}
+  h1 {
+  color: red;
+}
+
+}
+///*mobiles*///
+@media all and (min-width: 500px), (min-width: 650px){html{background-color:yellow;}
+  #grid-floats .grid-item:first-child{
+  float: left;
+  width: calc( 100% -20px);
+  height: auto;
+  padding: 5px;
+
+{
+
+  }
+}
